@@ -26,9 +26,9 @@ dependencies {
 	implementation("org.thymeleaf.extras:thymeleaf-extras-springsecurity6")
 
 	// https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api
-	implementation("io.jsonwebtoken:jjwt-api:0.10.2")
-	implementation("io.jsonwebtoken:jjwt-impl:0.10.2")
-	implementation("io.jsonwebtoken:jjwt-jackson:0.10.2")
+	implementation("io.jsonwebtoken:jjwt-api:0.11.2")
+	implementation("io.jsonwebtoken:jjwt-impl:0.11.2")
+	implementation("io.jsonwebtoken:jjwt-jackson:0.11.2")
 
 	compileOnly("org.projectlombok:lombok")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
